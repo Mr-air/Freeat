@@ -1,0 +1,29 @@
+.protiv {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.wrapper-profile {
+    margin: 40px 20px;
+}
+
+.wrapper-button {
+    margin-top:  20px;
+    align-items: center;
+}
+
+.profile-button {
+    background: rebeccapurple;
+}
+
+.checkbox:checked + .protiv {
+    display: block;
+}
+
+.wrapper-input {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-around;
+    
+}

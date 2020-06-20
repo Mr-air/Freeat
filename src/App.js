@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import bridge from '@vkontakte/vk-bridge';
 import View from '@vkontakte/vkui/dist/components/View/View';
+//import PanelHeader from '@vkontakte/vkui/dist/components/PanelHeader/PanelHeader';
 //import ScreenSpinner from '@vkontakte/vkui/dist/components/ScreenSpinner/ScreenSpinner';
 import '@vkontakte/vkui/dist/vkui.css';
 
 import Home from './panels/Home';
 import Persik from './panels/Persik';
 import Startpage from './panels/Startpage'
+import { PanelHeader, Root } from '@vkontakte/vkui';
 
 const App = () => {
 	const [activePanel, setActivePanel] = useState('startpage');
@@ -34,11 +36,13 @@ const App = () => {
 	};
 
 	return (
-		<View activePanel={activePanel}>
+		
+		<View  className="saasas" activePanel={activePanel}>
 			<Startpage id='startpage' go={go} />
 			<Home id='home' fetchedUser={fetchedUser} go={go} />
 			<Persik id='persik' go={go} />
 		</View>
+	
 	);
 }
 

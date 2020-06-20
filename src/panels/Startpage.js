@@ -6,7 +6,7 @@ import Div from '@vkontakte/vkui/dist/components/Div/Div';
 import './startpage.css';
 const Startpage = ({id, go}) => {
     return (
-    <Panel id={id} onClick={go} data-to="home">
+    <Panel  id={id} onClick={go} data-to="home">
         <Div className="Wraper--span_startpage">
     <span className="span_startpage" >Готов к победе</span>
     </Div>

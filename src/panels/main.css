@@ -1,0 +1,32 @@
+.progress__level {
+    display: inline-block;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.wrapperm-level {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.wrapper-progress-level {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /*justify-content: space-around;*/
+}
+
+.wrapper-progress-level .level-up {
+    margin-bottom: 80px;
+}
+
+.wrapper-progress-level .level-now {
+    margin-top: 80px;
+}
