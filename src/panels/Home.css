@@ -1,0 +1,16 @@
+.ButtonHome {
+    background:rebeccapurple;
+}
+
+
+.epichome {
+    background:rebeccapurple;
+}
+
+.epichome .PanelHeader__in--active {
+    background:rebeccapurple;
+}
+
+.epichome span {
+    color: rgb(41, 117, 204);
+}

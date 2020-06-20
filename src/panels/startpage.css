@@ -1,0 +1,10 @@
+.span_startpage {
+   text-align: center;
+}
+
+.Wraper--span_startpage{
+ margin-top: 75%;
+    background:rebeccapurple;
+    border-radius: 4px;
+    text-align: center;
+}
