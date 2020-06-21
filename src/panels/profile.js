@@ -16,7 +16,7 @@ const Profile = () => {
         <span className="icon-caption">Введите Вес</span>
         <Input></Input>
         </div>
-        <span className="icon-caption">Иммеются ли противопоказания</span>
+        <span className="icon-caption">Имеются ли противопоказания</span>
         <input type="checkbox" className="checkbox"></input>
         <Input className="protiv"></Input>
         <div className="wrapper-button">

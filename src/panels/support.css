@@ -1,0 +1,42 @@
+.top__block--level {
+ /* display: flex;
+ flex-direction: column-reverse;
+ justify-content: flex-end;*/
+ padding:20px 30px; 
+ text-align: right;
+}
+
+
+
+.middle__block--users {
+    margin-top: 40px;  
+    text-align: center;
+
+}
+
+.middle__block--users span {
+    margin-right: 29px ;
+}
+
+.users__parametr{
+    margin: 20px;
+}
+
+.users-avatar {
+    margin-left: 42%;
+    margin-bottom: 20px;
+}
+
+.progress-users {
+   margin-left: 90px;
+}
+
+.bottom__block--buttons Button{
+ margin: 30px;
+}
+
+.bottom__block--buttons {
+margin-top: 40px;    
+display: flex;
+flex-direction: column;
+}

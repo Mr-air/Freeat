@@ -21,7 +21,7 @@ const Main = () => {
                 </div>
                   <img className="People_img" src={people} alt="personage"/>
             </div>
-           <Button className="button-priv">Я сдержусь</Button>
+           {/* <Button className="button-priv">Я сдержусь</Button> */}
         </div>
     
 );

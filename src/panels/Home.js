@@ -19,6 +19,7 @@ import Profile from './profile';
 import Priv from './priv';
 import Main from './main';
 import Rating from './rating';
+import Support from './support';
 
 class Home extends React.Component {
 	constructor (props) {
@@ -62,12 +63,12 @@ class Home extends React.Component {
 			  data-story="notifications"
 			  text="Рейтинг"
 			></TabbarItem>
-			{/* <TabbarItem
+			<TabbarItem
 			  onClick={this.onStoryChange}
 			  selected={this.state.activeStory === 'more'}
 			  data-story="more"
-			  text="Ещё"
-			></TabbarItem> */}
+			  text="Поддержка"
+			></TabbarItem>
 		  </Tabbar>
 		}>
 		  <View className="epic" id="feed" activePanel="feed">
@@ -93,11 +94,11 @@ class Home extends React.Component {
                <Rating/>
 			</Panel>
 		  </View>
-		  {/* <View id="more" activePanel="more">
+		  <View id="more" activePanel="more">
 			<Panel id="more">
-			  <PanelHeader className="epichome">Ещё</PanelHeader>
+              <Support/>
 			</Panel>
-		  </View> */}
+		  </View>
 		</Epic>
 	  )
 	}

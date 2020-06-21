@@ -9,14 +9,15 @@ const Priv = () => {
     return(
         <div className="wpapper-priv">
         <div className="wrapper-quote"> 
-        <h3>Цитата</h3>   
+        <h3>«Каждый ваш успех или поражение целиком и полностью определяются образом жизни и устоявшимися привычками»</h3>   
         </div>
     
         <div className="wrapper-priv-eat">
             <div>
             <h5>ЧТО ТЕБЕ ХОЧЕТСЯ СЪЕСТЬ?</h5>
             <select className="select-css">
-                <option></option>
+                <option>Шоколад</option>
+                <option>Чипсы</option>
             </select>
             </div>
             <img className="People_img" src={people} alt="personage"/>
